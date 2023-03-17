@@ -11,8 +11,16 @@ import UserMessage from "./components/UserMessage";
 import UserData from "./components/UserData";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
+import RenderingLists from "./components/RenderingLists";
+
 function App() {
   return <div className="App">
+    <h1>Rendering Lists</h1>
+
+    <RenderingLists />
+    <hr/>
+    <hr/>
+
     <h1>Events</h1>
     <hr/>
     <MethodsAsPropsParent />
