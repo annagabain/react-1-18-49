@@ -9,11 +9,15 @@ import ConditionalRenderingFunctional from "./components/ConditionalRenderingFun
 import NestingComponents from "./components/NestingComponents";
 import UserMessage from "./components/UserMessage";
 import UserData from "./components/UserData";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 function App() {
   return <div className="App">
     <h1>Events</h1>
     <hr/>
+    <MethodsAsPropsParent />
+    <hr/>
+
 
     {/* <UserMessage/>
     <hr/>
