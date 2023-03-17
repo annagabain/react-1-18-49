@@ -6,18 +6,40 @@ import EventBinding from "./components/EventBinding"
 
 import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
+import NestingComponents from "./components/NestingComponents";
+import UserMessage from "./components/UserMessage";
+import UserData from "./components/UserData";
 
 function App() {
   return <div className="App">
     <h1>Events</h1>
-    {/* <EventsFunctional/>
-    <EventsClass/>
-    <p>stateful greeting</p><StatefulGreeting/>
-    <p>event binding</p><EventBinding greeting="I am an event binding!"/> */}
     <hr/>
+
+    {/* <UserMessage/>
+    <hr/>
+
+    <UserData/>
+    <hr/> */}
+
+    <NestingComponents/>
+    <hr/>
+
+    <ConditionalRenderingClass/>
+    <hr/>
+
     <ConditionalRenderingFunctional connected={false}/>
     <hr/>
-    <ConditionalRenderingClass/>
+
+    <p>event binding</p><EventBinding greeting="I am an event binding!"/>
+    <hr/>
+
+    <p>stateful greeting</p><StatefulGreeting/>
+    <hr/>
+
+    <EventsClass/>
+    <hr/>
+
+    <EventsFunctional/>
 
   </div>;
 }

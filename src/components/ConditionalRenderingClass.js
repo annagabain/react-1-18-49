@@ -1,4 +1,3 @@
-import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers'
 import React, { Component } from 'react'
 
 export class ConditionalRenderingClass extends Component {
@@ -9,7 +8,7 @@ export class ConditionalRenderingClass extends Component {
     //   isLoaded: true,
     //   isLoggedIn: false
     // }
-    
+
     this.state = {
       isLoaded: false,
       isLoggedIn: true
@@ -33,7 +32,7 @@ export class ConditionalRenderingClass extends Component {
 
         ) : (
           <div>
-            <p>Please log in (log in button here-->>)</p>
+            <p>Please log in (--log in button here--)</p>
             <p>(test with <strong>isLoggedn:true</strong> for now)</p>
 
           </div>

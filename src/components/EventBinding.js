@@ -32,7 +32,7 @@ class EventBinding extends React.Component {
         // return <h1>Hello from the stateful class component!</h1>
         return (
             <div>
-                <h1>{this.state.introduction} {this.props.greeting}</h1>
+                <h2>{this.state.introduction} {this.props.greeting}</h2>
                 {/* <button onClick={() => this.handleClick()}> */}
                 {/* <button onClick={this.handleClick.bind(this)}> */}
                 <button onClick={this.handleClick}>
