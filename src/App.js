@@ -7,8 +7,8 @@ import EventBinding from "./components/EventBinding"
 import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 import NestingComponents from "./components/NestingComponents";
-import UserMessage from "./components/UserMessage";
-import UserData from "./components/UserData";
+// import UserMessage from "./components/UserMessage";
+// import UserData from "./components/UserData";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 import RenderingLists from "./components/RenderingLists";
