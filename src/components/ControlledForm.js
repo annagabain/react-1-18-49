@@ -15,7 +15,7 @@ export class ControlledForm extends Component {
                 <form>
                     <label htmlFor="id-name">Your Name:</label>
                     <input
-                        value={this.state.name}
+                        defaultValue={this.state.name}
                         id="id-name"
                         name="name"
                         type="text"
