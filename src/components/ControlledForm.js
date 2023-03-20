@@ -9,10 +9,17 @@ export class ControlledForm extends Component {
         }
     }
     handleNameChange = (event) => {
+        // let newValue = event.target.value
+        // this.setState({
+        //     name: newValue,
+        // });
+        // console.log(newValue);
+       
         this.setState({
             name: event.target.value
-        })
+        });
     }
+    
     render() {
         return (
             <div>
