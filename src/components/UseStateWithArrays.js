@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 
 function UseStateWithArrays() {
     const [nums, setNums] = useState([1,2,3]);
+
+    //spread adds preserving the previous array items
     const addNums = () => {
         setNums([...nums, nums.length + 1]);
     }
@@ -12,9 +14,10 @@ function UseStateWithArrays() {
             })
         )
     }
+    //adds to the numbers but does not rerender
     const buggyPushNums = () => {
         nums.push(nums.length + 1);
-        setNums(nums);
+        // setNums(nums);
         console.log(nums);
     }
     return (
