@@ -4,7 +4,7 @@ import ClassCounter from "./components/ClassCounter";
 
 function App() {
   return <div className="App">
-      <HooksCounter />
+      <HooksCounter name="Anna"/>
       <ClassCounter />
     </div>;
 }
